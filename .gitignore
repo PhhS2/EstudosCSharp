@@ -1,0 +1,25 @@
+# Build Folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+
+# Visual Studio
+.vs/
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
