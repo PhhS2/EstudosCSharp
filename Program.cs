@@ -17,6 +17,7 @@ namespace Exercicios1
             if(opcao == "1") ExercicioProduto.Executar();
             if(opcao == "2") ExercicioConta.Executar();
             if(opcao == "3") ExercicioRaio.Executar();
+            if(opcao == "4") ExercicioConversorMoeda.Executar();
             else Console.WriteLine("Opção inválida!");
         }
     }
