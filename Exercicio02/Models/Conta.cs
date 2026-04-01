@@ -1,4 +1,4 @@
-namespace Exercicios1.Models
+namespace Exercicio02.Models
 {
     class Conta
     {
