@@ -8,18 +8,18 @@ namespace Exercicios1.Exercicios
     {
         public static void Executar()
         {
-            Produto p = new Produto();
+       Console.Write("nome do produto: ");
+string nome = Console.ReadLine()!;
 
-            Console.Write("nome do produto: ");
-            p.Nome = Console.ReadLine()!;
+Console.Write("preço: ");
+double preco = double.Parse(Console.ReadLine()!, CultureInfo.InvariantCulture);
 
-            Console.Write("preço: ");
-            p.Preco = double.Parse(Console.ReadLine()!, CultureInfo.InvariantCulture);
+Console.Write("quantidade: ");
+int quantidade = int.Parse(Console.ReadLine()!);
 
-            Console.Write("quantidade: ");
-            p.Quantidade = int.Parse(Console.ReadLine()!);
+Produto p = new Produto(nome, preco, quantidade);
 
-            Console.WriteLine("dados do produto: " + p);
+Console.WriteLine("dados do produto: " + p);
         }
     }
 }
